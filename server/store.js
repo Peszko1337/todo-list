@@ -1,5 +1,5 @@
 const storage = require('azure-storage')
-const service = storage.createTableService()
+const service = storage.createTableService("todonodefpaccount", "G0O1FrPUjeJUm7cXMx0mlNvrouaGr1Zn0m7dASnyTSJkOoAEJdmBtMIbPuzZzCDzAnRD/gxVship7kcPVzgWjA==")
 const table = 'tasks'
 const init = async () => (
  new Promise((resolve, reject) => {
